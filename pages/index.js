@@ -19,7 +19,7 @@ export default function Home({ filteredCoins }) {
     <Layout >
       <div className="coin_app">
         <SearchBar type="text" placeholder="Search" 
-        onChange={handleCHange}/>
+        onChange={handleChange}/>
         <CoinList filteredCoins={allCoins} />
       </div>
 
